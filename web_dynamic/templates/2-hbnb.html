@@ -2,21 +2,33 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
+<<<<<<< HEAD
 
     <SCRIPT src="https://code.jquery.com/jquery-3.2.1.min.js"></SCRIPT>
     <SCRIPT src="../static/scripts/2-hbnb.js?{{ cache_id }}"></SCRIPT>
 
+=======
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+>>>>>>> secondary_hsppie
     <link rel="stylesheet" type="text/css" href="../static/styles/4-common.css?{{ cache_id }}">
     <link rel="stylesheet" type="text/css" href="../static/styles/3-header.css?{{ cache_id }}">
     <link rel="stylesheet" type="text/css" href="../static/styles/3-footer.css?{{ cache_id }}">
     <link rel="stylesheet" type="text/css" href="../static/styles/6-filters.css?{{ cache_id }}">
     <link type="text/css" rel="stylesheet" href="../static/styles/8-places.css?{{ cache_id }}">
+<<<<<<< HEAD
     <link rel="icon" href="../static/images/icon.png" />
+=======
+    <link rel="icon" href="../static/images/icon.png?{{ cache_id }}" />
+>>>>>>> secondary_hsppie
     <title>HBnB</title>
   </head>
   <body>
     <header>
       <div class="logo"></div>
+<<<<<<< HEAD
+=======
+      <div id="api_status"></div>
+>>>>>>> secondary_hsppie
     </header>
     <div class="container">
       <section class="filters">
@@ -44,10 +56,14 @@
 	  <div class="popover">
 	    <ul>
 	      {% for amenity in amenities %}
+<<<<<<< HEAD
 	      <LI>
 		<input type="checkbox" style="margin-right:10px;" data-id="{{ amenity_id }}" data-name="{{ amenity_name }}">
 		{{ amenity.name }}
 	      <li>{{ amenity.name }}</li>
+=======
+	      <li><input type="checkbox" data-id="{{ amenity_id }}" data-name="{{ amenity_name }}" name="" id="">{{ amenity.name }}</li>
+>>>>>>> secondary_hsppie
 	      {% endfor %}
 	    </ul>
 	  </div>
@@ -81,5 +97,9 @@
     <footer>
       <p>Holberton School</p>
     </footer>
+<<<<<<< HEAD
+=======
+    <script src="../static/scripts/2-hbnb.js?{{ cache_id }}"></script>
+>>>>>>> secondary_hsppie
   </body>
 </html>
