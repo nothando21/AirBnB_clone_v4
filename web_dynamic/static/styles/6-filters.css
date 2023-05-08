@@ -101,9 +101,8 @@ button:hover {
 .locations:hover .popover {
     visibility: visible;
 }
-<<<<<<< HEAD
-=======
+
 li > input {
     margin-right: 10px;
 }
->>>>>>> secondary_hsppie
+

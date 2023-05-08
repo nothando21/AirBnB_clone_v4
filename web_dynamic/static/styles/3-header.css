@@ -9,8 +9,7 @@ header .logo {
     left: 20px;
     height: 100%;
 }
-<<<<<<< HEAD
-=======
+
 header #api_status{
     background-color: #CCCCCC;
     border-right: 30px;
@@ -24,4 +23,4 @@ header #api_status{
 .available{
     background-color:#ff545f;
 }
->>>>>>> secondary_hsppie
+
